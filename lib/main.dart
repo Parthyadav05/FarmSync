@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 Future<void> main()  async {
   WidgetsFlutterBinding.ensureInitialized();
-  Gemini.init(apiKey: 'AIzaSyA3FJobqtEW7ovd7yF_cYHt7Xlx5U6QUu8',enableDebugging: true);
+  Gemini.init(apiKey: '',enableDebugging: true);
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
