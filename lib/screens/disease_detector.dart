@@ -23,9 +23,9 @@ class _MyHomePageState extends State<MyHomePage> {
   late Interpreter interpreter;
   bool _modelLoaded = false;
   final apiKey =
-      Platform.environment['AIzaSyA3FJobqtEW7ovd7yF_cYHt7Xlx5U6QUu8'];
+      Platform.environment[''];
   final model = GenerativeModel(
-      model: 'gemini-pro', apiKey: 'AIzaSyA3FJobqtEW7ovd7yF_cYHt7Xlx5U6QUu8');
+      model: 'gemini-pro', apiKey: '');
   var generatedText = "";
   // Create a list of strings containing only the disease names
   // Add all supported characters
